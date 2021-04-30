@@ -1,0 +1,119 @@
+body{
+	background: gray;
+}
+*{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+.menu-bar{
+	background: #333;
+	height: 100px;
+}
+.logo{
+	margin-left: 10px;
+	float: left;
+}
+.menu{
+	float: left;
+}
+.menu ul{
+	display: flex;
+}
+.menu ul li{
+	display: inline-block;
+}
+.menu ul li a{
+	padding: 22px;
+	line-height: 100px;
+	text-decoration: none;
+	color: #fff;
+	transition: 0.6s;
+}
+.active{
+	background: #009688;
+}
+.menu ul li a:hover{
+	background:#2196f3;
+}
+.search-box{
+	float: right;
+	display: flex;
+	margin: 30px 25px;
+}
+.tbox{
+	padding: 10px;
+	width: 250px;
+}
+.btn{
+	width: 50px;
+	background: #009688;
+}
+.banner{
+	position: relative;
+	left: 325px;
+	top: 30px;
+}
+
+fieldset{
+	background-image: linear-gradient(#47B5B0, #094845);
+	margin: 15px;
+	border-radius: 10px;
+	color: white;
+	display: inline-block;
+}
+.category{
+	width: 275px;
+}
+.categorytable{
+	display: inline-block;
+	margin: 15px;
+}
+td{
+	display: inline-block;
+	margin: 15px;
+	font-size: 20px;
+}
+legend{
+	font-size: 25px;
+}
+.brands{
+	height: 340px;
+	width: 270px;
+}
+.table{
+	position: relative;
+	bottom: 660px;
+}
+.buttons{
+	position: relative;
+	
+}
+.buttons button{
+	margin: 10px;
+	border: 10px;
+	border-radius:10px;
+	height: 50px;
+	width: 130px;
+	display: inline-block;
+	color: white;
+	background: #3b349e;
+}
+
+.activitylogtable{
+	position: absolute;
+	
+    border: 10px solid white;
+	border-style: inset;
+	border-radius: 10px;
+	background:  linear-gradient(to bottom right, #000428 ,#141e30, #243b55, #004e92, #000428);  
+	color:#fff;
+	padding-bottom: 10px; padding-top: 0px; padding-right: 10px; padding-left: 10px;
+	font-size: 15px;
+    text-align: center;
+    margin-top: -88%;
+    margin-left: 20.5%;
+    width: 685px;
+    opacity: 0.7;
+
+}
